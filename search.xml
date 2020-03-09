@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Linux常用命令</title>
+    <url>/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<h1 id="Linux常用命令"><a href="#Linux常用命令" class="headerlink" title="Linux常用命令"></a>Linux常用命令</h1><h2 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h2><p>tcpdump：</p>
+<p>抓取vlan信息：</p>
+<pre><code>tcpdump -ni em2 -v -e | grep vlan</code></pre>]]></content>
+      <categories>
+        <category>Linux</category>
+        <category>常用命令</category>
+      </categories>
+      <tags>
+        <tag>Linux 常用命令</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>leo1</title>
     <url>/leo1/</url>
     <content><![CDATA[]]></content>
