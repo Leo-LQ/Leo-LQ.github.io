@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>leo1</title>
+    <url>/leo1/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>hexo</category>
+        <category>next</category>
+      </categories>
+      <tags>
+        <tag>Linux</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+        <category>next</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Documentation</title>
+    <url>/index/</url>
+    <content><![CDATA[<h3 id="Elegant-and-Powerful-Theme-for-Hexo"><a href="#Elegant-and-Powerful-Theme-for-Hexo" class="headerlink" title="Elegant and Powerful Theme for Hexo"></a>Elegant and Powerful Theme for Hexo</h3><p>Theme NexT has the following features:</p>
+<ul>
+<li>No jQuery</li>
+<li>Supports native dark mode</li>
+<li>Support Pjax to deliver a fast browsing experience</li>
+<li>Integrated KaTeX and MathJax mathematical formula rendering</li>
+<li>Supports Gitalk, Valine and Disqus comment systems</li>
+<li>Support a large number of third-party statistics and content sharing services</li>
+<li>Easy to customize content or modify style</li>
+</ul>
+<h3 id="Four-Schemes-in-One"><a href="#Four-Schemes-in-One" class="headerlink" title="Four Schemes in One"></a>Four Schemes in One</h3><p>By using different styles in NexT (also called Scheme), you simply change what your blog looks like, and nearly all options can be used in all schemes.</p>
+<p><img src="https://user-images.githubusercontent.com/16272760/63487983-da41b080-c4df-11e9-951c-64883a8a5e9b.png" alt="NexT Schemes"></p>
+<h3 id="Multilingual-Support"><a href="#Multilingual-Support" class="headerlink" title="Multilingual Support"></a>Multilingual Support</h3><p>Thanks to the <a href="https://github.com/theme-next/hexo-theme-next/pulls?utf8=%E2%9C%93&q=is%3Apr+label%3A%22%F0%9F%8C%8D+i18n%22+" target="_blank" rel="noopener">contribution of our users and developers</a>, <a href="/docs/getting-started/#Choosing-Language">NexT now supports over 15 languages</a>.</p>
+<h3 id="Five-Code-Highlighting-Themes"><a href="#Five-Code-Highlighting-Themes" class="headerlink" title="Five Code Highlighting Themes"></a>Five Code Highlighting Themes</h3><p>NexT uses code highlighting themes from Tomorrow, and you can choose what you like by changing one line option.</p>
+<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="/images/docs/tomorrow.png" alt="Tomorrow Normal"></div><div class="group-picture-column" style="width: 50%;"><img src="/images/docs/tomorrow-night.png" alt="Tomorrow Night"></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="/images/docs/tomorrow-night-eighties.png" alt="Tomorrow Night Eighties"></div></div><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="/images/docs/tomorrow-night-blue.png" alt="Tomorrow Night Blue"></div><div class="group-picture-column" style="width: 50%;"><img src="/images/docs/tomorrow-night-bright.png" alt="Tomorrow Night Bright"></div></div></div></div>
+
+<h3 id="Customize-Your-NexT"><a href="#Customize-Your-NexT" class="headerlink" title="Customize Your NexT"></a>Customize Your NexT</h3><p>NexT have flexible but simple options, and you can make your own blog with built-in third-party support. Now let’s <a href="/docs/getting-started/">get started</a>.</p>
+]]></content>
+  </entry>
+</search>
