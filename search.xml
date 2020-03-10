@@ -1,6 +1,126 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Markdown语法</title>
+    <url>/Markdown%E8%AF%AD%E6%B3%95/</url>
+    <content><![CDATA[<ul>
+<li>标题</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure>
+
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><hr>
+<ul>
+<li>字体</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">*斜体*</span></span><br><span class="line"><span class="emphasis">_斜体_</span></span><br><span class="line"></span><br><span class="line"><span class="strong">**粗体**</span></span><br><span class="line"><span class="strong">__粗体__</span></span><br><span class="line"></span><br><span class="line"><span class="strong">***粗斜体**</span>*</span><br><span class="line"><span class="strong">___粗斜体__</span>_</span><br></pre></td></tr></table></figure>
+
+<p><em>斜体</em></p>
+<p><strong>粗体</strong></p>
+<p><strong><em>粗斜体</em></strong></p>
+<hr>
+<ul>
+<li>分割线</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="emphasis">***</span> 分割线</span><br><span class="line"><span class="bullet">* </span><span class="emphasis">* *</span> 分割线</span><br><span class="line"><span class="emphasis">***</span>* 分割线</span><br><span class="line"><span class="bullet">- </span>- - 分割线</span><br><span class="line">--- 分割线</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>删除线</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">~~删除线~~</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>下划线</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="tag">&lt;<span class="name">u</span>&gt;</span></span>下划线<span class="xml"><span class="tag">&lt;/<span class="name">u</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>列表</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">* </span>无序列表</span><br><span class="line"><span class="bullet">+ </span>无序列表</span><br><span class="line"><span class="bullet">- </span>无序列表</span><br><span class="line"></span><br><span class="line"><span class="bullet">1. </span>有序列表</span><br><span class="line"><span class="bullet">2. </span>有序列表</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>列表嵌套</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">列表嵌套只需在子列表中的选项添加四个空格即可</span><br><span class="line"><span class="bullet">1. </span>有序列表</span><br><span class="line"><span class="bullet">    - </span>无序列表</span><br><span class="line"></span><br><span class="line"><span class="bullet">- </span>无序列表</span><br><span class="line"><span class="bullet">    1. </span>有序列表</span><br></pre></td></tr></table></figure>
+
+<ol>
+<li>有序列表<ul>
+<li>无序列表</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>无序列表<ol>
+<li>有序列表</li>
+</ol>
+</li>
+</ul>
+<hr>
+<ul>
+<li>区块</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">区块引用是在段落开头使用 &gt; 符号 ，然后后面紧跟一个空格符号</span><br><span class="line"><span class="quote">&gt; 区块1</span></span><br><span class="line"><span class="quote">&gt; 区块2</span></span><br><span class="line"></span><br><span class="line">区块嵌套</span><br><span class="line"><span class="quote">&gt; 外层区块</span></span><br><span class="line"><span class="quote">&gt; &gt; 第一层</span></span><br><span class="line"><span class="quote">&gt; &gt; &gt; 第二层</span></span><br><span class="line"></span><br><span class="line">区块中使用列表</span><br><span class="line"><span class="quote">&gt; 区块</span></span><br><span class="line"><span class="quote">&gt; 1. 第一项</span></span><br><span class="line"><span class="quote">&gt; * 第一项</span></span><br><span class="line"></span><br><span class="line">列表中使用区块</span><br><span class="line">列表项目内放进区块，那么就需要在 &gt; 前添加四个空格的缩进</span><br><span class="line"><span class="bullet">* </span>第一项</span><br><span class="line"><span class="quote">&gt; 区块</span></span><br><span class="line"><span class="bullet">* </span>第二项</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>区块1</p>
+<p>区块2</p>
+</blockquote>
+<blockquote>
+<p>外层区块</p>
+<blockquote>
+<p>第一层</p>
+<blockquote>
+<p>第二层</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>区块</p>
+<ol>
+<li>第一项</li>
+</ol>
+<ul>
+<li>第一项</li>
+</ul>
+</blockquote>
+<ul>
+<li><p>第一项</p>
+<blockquote>
+<p>区块</p>
+</blockquote>
+</li>
+<li><p>第二项</p>
+</li>
+</ul>
+<hr>
+<ul>
+<li>代码块</li>
+</ul>
+<p>段落上的一个函数或片段的代码可以用反引号把它包起来（<strong>`</strong>）</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="code">`printf()`</span>函数</span><br></pre></td></tr></table></figure>
+
+<p><code>printf()</code>函数</p>
+<p>代码区块</p>
+<p>使用 <strong>4 个空格</strong>或者一个<strong>制表符（Tab 键）</strong></p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">——&gt;<span class="xml"><span class="php"><span class="meta">&lt;?php</span></span></span></span><br><span class="line"><span class="xml">——&gt;</span>echo 'test'</span><br><span class="line">——&gt;function test() &#123;</span><br><span class="line">——&gt;——&gt;echo 'test'</span><br><span class="line">——&gt;&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="xml"><span class="php"><span class="meta">&lt;?php</span></span></span></span><br><span class="line"><span class="xml">echo 'test'</span></span><br><span class="line"><span class="xml">function test()&#123;</span></span><br><span class="line"><span class="xml">	echo 'test'</span></span><br><span class="line"><span class="xml">&#125;</span></span><br></pre></td></tr></table></figure>
+
+<p>也可以用 <strong>```</strong> 包裹一段代码，并指定一种语言（也可以不指定）</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="code">```javascript</span></span><br><span class="line"><span class="code">$(document).ready(function () &#123;</span></span><br><span class="line"><span class="code">    alert('RUNOOB');</span></span><br><span class="line"><span class="code">&#125;);</span></span><br><span class="line"><span class="code">```</span></span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line">$(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    alert(<span class="string">'RUNOOB'</span>);</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+
+<p>也可以使用<del>~</del>包裹一段代码，并指定一种语言（也可以不指定）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">~~~javascript</span><br><span class="line">$(document).ready(function () &#123;</span><br><span class="line">    alert(&#39;RUNOOB&#39;);</span><br><span class="line">&#125;);</span><br><span class="line">~~~</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Markdown</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Linux常用命令</title>
     <url>/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
     <content><![CDATA[<h2 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h2><p>tcpdump：</p>
